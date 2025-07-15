@@ -47,7 +47,6 @@ import kotlinx.coroutines.delay
 import java.text.NumberFormat
 import java.util.Locale
 
-// Dados de exemplo (SUBSTITUIR PELO VIEWMODEL DEPOIS)
 data class ProductStockItem(
     val id: Int,
     val name: String,
@@ -64,7 +63,7 @@ val sampleProducts = listOf(
     ProductStockItem(4, "Bombom", 50, Color.Cyan, 1.00, 2.00),
     ProductStockItem(5, "Bolo", 10, Color.Green, 3.00, 5.00),
 )
-// Fim dos dados de exemplo
+
 
 @Composable
 fun StockScreen(

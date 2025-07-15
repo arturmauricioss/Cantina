@@ -19,7 +19,7 @@ import androidx.navigation.compose.rememberNavController
 import com.avallon.cantina.ui.dashboard.DashboardScreen
 import com.avallon.cantina.ui.stock.StockScreen
 // IMPORTAR AppDestinations do seu arquivo
-import com.avallon.cantina.AppDestinations
+import com.avallon.cantina.navigation.AppDestinations
 // IMPORTAR SUA FUTURA AddProductScreen (ou comente se ainda não criou o arquivo)
 // import com.avallon.cantina.ui.add_product.AddProductScreen
 

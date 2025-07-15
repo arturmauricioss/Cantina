@@ -1,4 +1,4 @@
-package com.avallon.cantina // Certifique-se que o pacote está correto
+package com.avallon.cantina.navigation // Certifique-se que o pacote está correto
 
 object AppDestinations {
     const val LOGIN_ROUTE = "login" // Você pode manter ou remover se não estiver usando ainda
